@@ -4,6 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/gestureTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Swipe right or left to delete saved news"
+        android:gravity="center"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvSavedNews"
         android:layout_width="match_parent"
